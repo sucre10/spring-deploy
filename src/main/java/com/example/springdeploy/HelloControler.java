@@ -30,7 +30,9 @@ public class HelloControler {
     }
 
     //@GetMapping...  Habilita URL para acceder derde el exterior por Url
-    @GetMapping("/bootstrap")
+    //@GetMapping("/bootstrap")
+    @GetMapping("/")    //ponemos solo barra para que al comenzar la aplicacion muestre este contenido directamente
+
     public String bootstrap(){
         //return """
          //       """;
